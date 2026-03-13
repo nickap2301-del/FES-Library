@@ -74,7 +74,7 @@ li {
 }
 
 header {
-    height: calc(100vh - 80px);
+   height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -147,7 +147,7 @@ margin: 0% auto;
 }
 
 /*#highlights:before {
-    background: url(assets/wave.svg);
+    background: url('assets/wave.svg');
     content:"";
     position: absolute;
     top: 1px;
@@ -160,29 +160,29 @@ margin: 0% auto;
     z-inbex: 1:
 }*/
 
-#highlights:before {
-    background: url(assets/wave.svg);
+#highlight::before{
+    background: url('assets/wave.svg');
     content:"";
     position: absolute;
     width: 101vw;
     height: 12vw;
     top: 1px;
     left: 0;
-    z-index: 2;
+    z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateY(-100%);
 }
 
-#highlights:after {
-    background: url(assets/wave.svg);
+#highlight::after {
+    background: url('assets/wave.svg');
     content:"";
     position: absolute;
     width: 101vw;
     height: 12vw;
-    top: 1px;
+    bottom: 1px;
     left: 0;
-    z-index: 2;
+    z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateY(100%);
