@@ -29,7 +29,7 @@ img {
     color: #7342d6;
 }
 
-.logo {
+.logo /* Library Founded 1995 */{
     width: 160px;
 }
 
@@ -119,7 +119,8 @@ button:active {
     border: none;      
 }
   .header__img--wrapper {
-    padding: 20px;
+    margin-top: 0;
+    padding: 0px;
     }
 
 .container {
