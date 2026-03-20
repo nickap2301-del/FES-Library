@@ -1,5 +1,3 @@
-Try replacing your CSS with the following code and see if that fixes the issue :
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
 padding: 0;
@@ -260,7 +258,7 @@ align-items: center;
     bottom: 1px;
 }
 
-.highlight__wrapper { display: flex; flex-wrap: wrap; }
+.highlight__wrapper { display: flex; flex-wrap: nowrap; }
 
 .highlight {
     padding: 0 24px;
